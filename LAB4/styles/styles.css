@@ -1,0 +1,110 @@
+.main_container {
+    width: 100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    background-color: brown;
+    justify-content: space-between;   
+}
+
+/* Two equally sized columns */
+.left_box,
+.right_box{
+    height: 50px;
+    width: 47.8%;
+    margin: 10px 5px 10px 10px;
+    box-sizing: border-box;
+    background-color: blueviolet;
+}
+.right_box{
+    margin: 10px 10px 10px 5px;
+}
+.left_box{
+    margin: 10px 5px 10px 10px;
+}
+
+
+/* Three equally sized columns */
+.box_one,
+.box_two,
+.box_three{
+    height: 50px;
+    width: 30.5%;
+    box-sizing: border-box;
+    background-color: hotpink;
+}
+.box_one{
+    margin: 15px 7.5px 15px 15px;
+}
+.box_two{
+    margin: 15px 7.5px 15px 7.5px;
+}
+.box_three{
+    margin: 15px 15px 15px 7.5px;
+}
+
+/* Three unequal columns */
+.box_one_big{
+    height: 50px;
+    margin: 12px;
+    width: 49.5%;
+    box-sizing: border-box;
+    background-color: violet;
+    border: 2px solid gold;
+}
+.box_one_small,
+.box_two_small{
+    height: 50px;
+    box-sizing: border-box;
+    background-color: aqua;
+    border: 2px solid gold;
+    width: 21.8%;
+}
+.box_one_big{
+    margin: 12px 6px 12px 12px;
+}
+.box_one_small{
+    margin: 12px 6px 12px 6px;
+}
+.box_two_small{
+    margin: 12px 12px 12px 6px;
+}
+
+
+/* Four equally sized columbs and a footer */
+
+.box_one_same,
+.box_two_same,
+.box_three_same,
+.box_four_same{
+    height: 50px;
+    box-sizing: border-box;
+    background-color: aqua;
+    border: 2px solid gold;
+    width: 22.8%;
+}
+footer{
+    height: 50px;
+    margin: 12px;
+    box-sizing: border-box;
+    background-color: aqua;
+    border: 2px solid green;
+    width: 100%;
+}
+.box_one_same{
+    margin: 12px 6px 0px 12px;
+}
+.box_two_same{
+    margin: 12px 6px 0px 6px;
+}
+.box_three_same{
+    margin: 12px 6px 0px 6px;
+}
+.box_four_same{
+    margin: 12px 12px 0px 6px;
+}
